@@ -1,0 +1,24 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+#dem{
+    position: absolute;
+    top: 52%;
+    right: 48%;
+    width: 2%;
+}
+
+#wen{
+    background-image: url("image/Nell-Fall.jpg");
+    background-repeat: no-repeat;
+}
+
+#now{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%); 
+}

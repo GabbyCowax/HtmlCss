@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#movies{
+border: solid 2px;
+width: 400px;
+height: 200px;
+}
+#pad{
+    padding: 2rem;
+    background-color: blue;
+    top: 5rem;
+    position: fixed;
+    left: 15rem;
+
+}
+#rate{
+    padding: 2rem;
+    background-color: blanchedalmond;
+    top:5rem ;
+    position: sticky;
+}
+#kell{
+    padding:2rem ;
+    background-color: burlywood;
+    top:50% ;
+    position: absolute;
+}

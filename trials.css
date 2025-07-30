@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.make{
+    margin: auto;
+    padding: 0rem;
+}
+
+#lop{
+    border: 2px solid;
+    margin: auto;
+    padding: 0%;
+    width: 15rem;
+    background-color: rgba(193, 196, 25, 0.783);
+    text-align: center;
+    border-radius: 20px;
+}
+
+#jg{
+    position: sticky;
+    top: 75%;
+}
+
+#alignment{
+    border: 2px solid;
+    display: flex;
+    width: 50%;
+    min-height: 20vh;
+    align-items: center;
+
+
+}

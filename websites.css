@@ -1,0 +1,154 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+
+/* Creating a navigation bar on our websites*/
+header{
+    position: sticky;
+    top: 40%;
+    background-color: white;
+}
+
+nav{
+    display: flex;
+    margin: auto;
+    width: 60%;
+    min-height: 8vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#Creation{
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+}
+#Creation h4{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+
+#Creation li:hover{
+    border-radius: 15px;
+    transition: scale(1rem);
+    background-color:  rgb(74, 6, 120);
+    border-radius: 15px;
+    padding: 0.5rem 1rem;
+}
+
+nav li{
+    list-style: none;
+   transition: background-color 0.2s ease-in-out,transform 0.2s ease-in-out;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+#Vite{
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-around;
+}
+
+#Vite a:hover{
+    color: white;
+}
+
+
+#Vite a:hover{
+   border-radius: 10%;
+   padding: 0.1rem 1rem;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*Creating an addition of a website into our navigatiion bar*/
+
+#clone{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 3rem;
+    width: 50%;
+    min-height: 92vh;
+}
+#banner{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 3rem;
+    width: 50%;
+    min-height: 92vh;
+}
+#sider{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.mastering{
+   display: flex;
+   bottom: 60%;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   align-items: center;
+   justify-content: center;
+}
+
+#clone h1{
+    position: absolute;
+    bottom: 50%;
+    padding: 3rem 1rem;
+}
+
+#butten{
+    padding: 0.5rem 1.5rem;
+    border-radius: 20px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(94, 6, 145);
+}
+
+.beding{
+    min-width: 35vw;
+    min-height: 15vh;
+    border-radius: 30px;
+    box-shadow: 5px 20px 15px;
+}
+
+#imagine{
+    padding: 1rem 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@media (max-width:1024px) {
+    nav{
+        display: flex;
+        flex-wrap: wrap;
+        width: 98%;
+        min-height: 5vh;
+    }
+
+    #clone h1{
+        position: absolute;
+        bottom: 59%;
+    }
+
+    #banner img{
+        position: relative;
+        right: 45%;
+        bottom: 10%;
+    }
+}
+
+
+
+
+
+
+
+
+

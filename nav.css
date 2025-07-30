@@ -1,0 +1,105 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+#sizing{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    min-height: 6vh;
+    font-size: large;
+}
+
+#Topper a:hover{
+    background-color: rgb(186, 12, 178);
+    transition: background-color 0.4s ease-in-out,transform 0.4s ease-in-out;
+    transform: scale(1.05);
+}
+/*designing a navigation bar on our website */
+header{
+    position: sticky;
+    background-color: darkturquoise;
+    top: 0%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+nav{
+    display: flex;
+    margin: auto;
+    width: 90%;
+    min-height: 8vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#Topper{
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+}
+
+#General{
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-around;
+}
+
+#General li:hover{
+    background-color: rgb(181, 11, 139);
+    transform: scale(1.05);
+}
+
+nav li{
+    list-style: none;
+    padding: 0.3rem;
+    transition: background-color 0.4s ease-in-out,transform 0.4s ease-in-out;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+/*Commencing an introduction to our website*/
+#master{
+    display: flex;
+    padding: 1rem 1rem;
+    min-height: 80vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(rgb(8,8, 8,0.488),rgb(0,0,0,0.589)) url("image/Nell-Fall.jpg");
+    background-size: cover;
+}
+#master h1{
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#master h3{
+    padding: 2rem 0.2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#Styling{
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(173, 167, 8);
+    box-shadow: 0px 5px 10px;
+    transition: background-color 0.2s ease-in-out,transform 0.2s ease-in-out;
+}
+
+#Styling{
+    background-color: rgb(37, 37, 122);
+    transform: scale(1.05);
+}
+
+
+
+
+
+
+

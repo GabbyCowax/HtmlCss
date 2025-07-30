@@ -1,0 +1,74 @@
+*{
+    padding: 0rem;
+    margin: 0rem;
+    box-sizing: border-box;   
+}
+
+#mak{
+    background-image: url("image/Hill-Pics.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    min-width: 80vw;
+    
+}
+
+#key{
+    margin: auto;
+    padding: 1rem;
+    width: 80%;
+    border-radius: 10px;
+}
+#lock{
+    margin: auto;
+    padding: 1rem;
+    width: 80%;
+    border-radius: 10px; 
+}
+
+#jug{
+    border: 2px solid;
+    text-align: center;
+    margin:auto ;
+    padding: 0rem;
+    height: 30rem;
+    width: 50%;
+    background-color: #fff;
+    border-radius: 30px;
+}
+
+#low{
+    border: 2px solid;
+    width: 80%;
+    padding: 1rem;
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgba(20, 84, 202, 0.847);
+    color: #fff;
+}
+
+#don{
+    color: rgba(27, 84, 170, 0.881);
+}
+
+#open{
+    border: 2px solid;
+    width: 50%;
+    margin: auto;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgba(58, 188, 29, 0.874);
+    color: #fff;
+}
+
+#wet{
+    text-align: center;
+    color: rgba(27, 84, 170, 0.881);
+}
+
+#tim{
+    text-align: center;
+    color: black;
+}

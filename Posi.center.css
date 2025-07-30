@@ -1,0 +1,30 @@
+*{
+    padding: 0rem;
+    margin: 0rem;
+    box-sizing: border-box;
+}
+#high{
+    text-align: center;
+    border: 2px solid;
+    padding: 0%;
+    margin: auto;
+    height: 30rem;
+    width: 30%;
+    border-radius: 30px;
+    background-color: #fff;
+}
+#man{
+    width: 20%;
+    margin: 1rem;
+    padding: 0rem;
+}
+#jam{
+    background-image: url("image/oranges.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    min-width: 80vw;
+}#now{
+    align-content: center;
+    margin: 2rem;
+}

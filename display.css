@@ -1,0 +1,52 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+#lok{
+    border: 2px solid;
+    min-height: 75vh;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    
+   
+}
+.box{
+    border: 2px solid;
+    width: 100px;
+    height: 100px;
+    flex-grow: 1;
+   
+}
+
+#lon{
+    display: flex;
+    flex-grow: 1;
+    text-align: center;
+}
+
+#mak{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cool{
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+#model{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#recent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,19 @@
+table,th,td{
+    border: 2px solid;
+    border-collapse:collapse
+}
+.don{
+    color:red;
+    border: black}
+#dan{
+    color: yellow;
+    border: black;
+}   
+.you{
+    color: blue;
+    border: black;
+}
+#we{
+color: cornflowerblue;
+border: black;
+}
